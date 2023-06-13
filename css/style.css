@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100vw;
+    height:100vh ;
+    background:#0a0b0b;
+}
+.calculator{
+    text-align: center;
+    padding-top: 15rem;
+    
+}
+   .row input{
+    font-size: 2rem;
+    width: 52px;
+   margin-top: 6px;
+   
+   
+   }
+   .display input{
+    padding: 15px;
+    width: 225px;
+   
+   }
+   .calculator form input{
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+   }
+   
